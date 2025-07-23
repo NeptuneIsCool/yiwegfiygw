@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.idk {
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUpIn 0.6s ease-out forwards;
+}
+
+.nav {
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUpIn 0.6s ease-out forwards;
+    animation-delay: 0.4s; 
+}
+
+@keyframes fadeUpIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.red {
+    color: red;
+}
+.linkss {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUpIn 0.6s ease-out forwards;
+    animation-delay: 0.8s; 
+}
+
+.linkss a {
+    color: #66ccff; 
+    text-decoration: underline; 
+    font-size: 20px;
+    transform: translateY(30px);
+    animation: fadeUpIn 0.6s ease-out forwards;
+    animation-delay: 0.4s; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.warning {
+    font-size: 100px;
+}
+img {
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.yo {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blue {
+    color: #66ccff !important;
+}
